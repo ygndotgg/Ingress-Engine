@@ -1,0 +1,16 @@
+
+
+# config.toml
+
+# Maximum number of concurrent client connections allowed
+max_connections = 1024
+
+# Size of the TCP receive buffer in bytes.
+# CRITICAL: Lowering this drastically reduces RAM usage per connection.
+
+tcp_recv_buf_size = 4096
+
+# If true, disables the Nagle algorithm.
+# Reduces latency for small packets (typical in MQTT), but may increase bandwidth.
+
+tcp_nodelay = true
