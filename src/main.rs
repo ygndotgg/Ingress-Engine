@@ -3,7 +3,6 @@ use std::env;
 use Ingress_Engine::{
     config::{Config, GLOBAL_CONFIG},
     network::NetworkConnector,
-    server::Conf,
 };
 
 #[tokio::main]
