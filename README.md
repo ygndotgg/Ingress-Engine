@@ -88,9 +88,7 @@ RUST_LOG=debug cargo run
 
 An example attack/test client is provided in `examples/attack.rs`.
 
-## License
 
-[Specify your license here]
 
 ## Contributing
 
